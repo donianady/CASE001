@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://detective.frey-united.com/detective-cases/1-ikona.webp">
+    <title>Detective Files|Deduction</title>
+   
+</head>
+<body>
+
+
+<header class="site-header">
+        <a class="site-logo" href="index.html">DETECTIVE FILES</a>
+        <span class="case-label">CASE 001</span>
+    </header>
+
+
+
+<main class="case-page deduction-page">
+    <h1>Your Deduction</h1>
+    <p>The evidence has been collected.<br>
+    Now it's time to connect the clues and identify the person responsible for the disappearance of the Golden Scarab.</p>
+<h2>Choose Your Suspect</h2>
+<div class="suspect-option">
+<input type="radio" name="suspect" value="Omar" id="omar">
+<label for="omar">Omar Mahmoud-The Museum Curator</label>
+</div>
+<div class="suspect-option">
+<input type="radio" name="suspect" value="Dr. Layla" id="layla">
+<label for="layla">Dr. Layla Elmasry-The Archaeologist</label>
+</div>
+
+<div class="suspect-option">
+<input type="radio" name="suspect" value="Karim" id="karim">
+<label for="karim">Karim Elmorsy-The Private Collector</label>
+</div>
+
+<div class="suspect-option">
+<input type="radio" name="suspect" value="Youssef" id="youssef">
+<label for="youssef">Youssef Ayman-The Museumm Security Officer</label>
+</div>
+
+<div class="suspect-option">
+<input type="radio" name="suspect" value="Mariam" id="mariam">
+<label for="mariam">Mariam Othman-The Artifact Conservator</label>
+</div>
+
+<div class="suspect-option">
+<input type="radio" name="suspect" value="Adam" id="adam">
+<label for="adam">Adam Nasr-The Journalist</label>
+</div>
+
+<h2>Your Reasoning</h2>
+<p>Which piece of evidence influenced your decision the most? Explain why.</p>
+<textarea
+id="reasoning"
+placeholder="Explain your reasoning..."
+rows="5"></textarea>
+<button type="button" id="submit-deduction">
+    SUBMIT DEDUCTION
+</button>
+<div id="result">
+
+</div>
+</main>
+
+ <nav class="page-navigation">
+<a href="timeline.html">Back to Timeline</a>
+</nav>
+<script src="script.js"></script>
+
+ <footer class="site-footer">
+        <p>DETECTIVE FILES | CASE 001</p>
+        <p>Every clue matters. Every detail counts.</p>
+    </footer>
+    </body>
+    </html>
